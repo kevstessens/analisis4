@@ -42,10 +42,6 @@ public class MainFrame {
 //            UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 //            UIManager.setLookAndFeel("com.jtattoo.plaf.texture.TextureLookAndFeel");
 
-
-
-
-
 //            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 //            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 //            UIManager.setLookAndFeel(SeaGlassLookAndFeel.class.getCanonicalName());
@@ -63,9 +59,8 @@ public class MainFrame {
 
         jFrame = new JFrame("Calculadora");
 
-        jFrame.setSize(new Dimension(465, 444));
+        jFrame.setSize(new Dimension(800, 400));
         jFrame.setResizable(false);
-
         jFrame.getContentPane().add(initTabbedPane());
 
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -75,6 +70,7 @@ public class MainFrame {
 
     private JTabbedPane initTabbedPane() {
         tabbedPane = new JTabbedPane();
+        tabbedPane.setTabPlacement(JTabbedPane.LEFT);
 
         //function panel
         functionPanel = new FunctionPanel(main);

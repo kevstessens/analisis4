@@ -28,9 +28,9 @@
     <file path="/TwoVariableFunctionImplementation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355617315213" ignored="false" />
     <file path="/DifferentialEquationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355616187725" ignored="false" />
     <file path="/GraphPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355676737025" ignored="false" />
-    <file path="/MainFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386188170615" ignored="false" />
-    <file path="/FunctionPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355976114310" ignored="false" />
-    <file path="/AddFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355973636563" ignored="false" />
+    <file path="/MainFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386190146233" ignored="false" />
+    <file path="/FunctionPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386190972875" ignored="false" />
+    <file path="/AddFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386190329037" ignored="false" />
     <file path="/IntegrateFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114287366" ignored="false" />
     <file path="/CalculateZeroOfAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114833938" ignored="false" />
     <file path="/Main.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374119883424" ignored="false" />
@@ -198,19 +198,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SolveDifferentialEquationAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/control/actions/SolveDifferentialEquationAction.java">
+      <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="61" column="45" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.19480519">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegrateFunctionAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/control/actions/IntegrateFunctionAction.java">
+      <file leaf-file-name="FunctionPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/FunctionPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="98" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
+            <state line="144" column="52" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +219,7 @@
       <file leaf-file-name="AddFunctionAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/control/actions/AddFunctionAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="34" column="90" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,64 +227,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/Variable.java">
+      <file leaf-file-name="GraphPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/GraphPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonValidExpressionError.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/NonValidExpressionError.java">
+      <file leaf-file-name="ResultTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ResultTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoDefineMathOperationException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/NoDefineMathOperationException.java">
+      <file leaf-file-name="CalculateZeroOfAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperableElement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionParser.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.258161">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Function.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionImplementation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -305,17 +269,17 @@
         <option value="$PROJECT_DIR$/src/view/InsertionTable.java" />
         <option value="$PROJECT_DIR$/src/view/InterpolationPanel.java" />
         <option value="$PROJECT_DIR$/src/view/TableModelForInsertion.java" />
-        <option value="$PROJECT_DIR$/src/view/FunctionPanel.java" />
         <option value="$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/CalcYForInterpolationAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/CalcYForLinerApproximationAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/InterpolatePointsAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/LinearApproximationAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/SolveDifferentialEquationAction.java" />
-        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/control/actions/AddFunctionAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/AddDifferentialEquationAction.java" />
         <option value="$PROJECT_DIR$/src/control/actions/IntegrateFunctionAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/AddFunctionAction.java" />
+        <option value="$PROJECT_DIR$/src/view/FunctionPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -775,7 +739,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44803694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21996997" sideWeight="0.22115384" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -853,41 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="46" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/actions/AddDifferentialEquationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="35" selection-start="1185" selection-end="1253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/actions/CalcYForLinerApproximationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="105" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/actions/CalcYForInterpolationAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="72" selection-start="1440" selection-end="1533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/actions/InterpolatePointsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="64" selection-start="2532" selection-end="2620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/control/actions/LinearApproximationAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="0" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.0">
@@ -906,15 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="98" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/actions/AddFunctionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,30 +859,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.27272728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="-1.1298702">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.258161">
+        <state line="18" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.291667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="50" selection-end="50" vertical-scroll-proportion="0.116883114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/AddFunctionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="90" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GraphPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ResultTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/FunctionPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="52" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="45" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.19480519">
           <folding />
         </state>
       </provider>

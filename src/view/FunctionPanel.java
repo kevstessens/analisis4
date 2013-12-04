@@ -157,6 +157,7 @@ public class FunctionPanel extends JPanel {
         functionInsertionPanel.add(addFunctionButton, BorderLayout.CENTER);
         functionInsertionPanel.add(new JPanel(), BorderLayout.SOUTH);
 
+
         return functionInsertionPanel;
     }
 
