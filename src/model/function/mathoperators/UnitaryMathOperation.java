@@ -4,8 +4,8 @@ import model.function.OperableElement;
 import model.function.OperableNumber;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 11:25 PM
  */
 public class UnitaryMathOperation implements OperableElement {
@@ -90,10 +90,10 @@ public class UnitaryMathOperation implements OperableElement {
     }
 
     public OperableElement simplify() {
+        operand.simplify();
         if (operand.isConstant()) {
             return new OperableNumber(getValue());
         } else {
-            operand.simplify();
             return this;
         }
     }

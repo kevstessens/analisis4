@@ -5,8 +5,8 @@ import model.function.OperableElement;
 import model.function.Variable;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 2:51 PM
  */
 public class FunctionImplementation implements Function {
@@ -16,7 +16,7 @@ public class FunctionImplementation implements Function {
     public FunctionImplementation(Variable x, OperableElement operationRoot) {
         this.x = x;
         this.operationRoot = operationRoot;
-        //this.operationRoot.simplify();
+        this.operationRoot.simplify();
     }
 
     public FunctionImplementation(OperableElement operationRoot) {
@@ -41,7 +41,7 @@ public class FunctionImplementation implements Function {
         Function function = null;
 
         try {
-            function = functionParser.getFunctionFromMathExpression("x^2");
+            function = functionParser.getFunctionFromMathExpression("x + 1");
         } catch (NonValidExpressionError nonValidExpressionError) {
             nonValidExpressionError.printStackTrace();
         }

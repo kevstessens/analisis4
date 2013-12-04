@@ -1,8 +1,8 @@
 package model.function;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 7:12 PM
  */
 public class NonValidExpressionError extends Exception {
@@ -11,5 +11,9 @@ public class NonValidExpressionError extends Exception {
     public NonValidExpressionError(int nonValidPositionInExpression) {
         super();
         this.nonValidPositionInExpression = nonValidPositionInExpression;
+    }
+
+    public int getNonValidPositionInExpression() {
+        return nonValidPositionInExpression;
     }
 }

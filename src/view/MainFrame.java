@@ -1,19 +1,25 @@
 package view;
 
+import com.alee.laf.WebLookAndFeel;
+import com.seaglasslookandfeel.SeaGlassLookAndFeel;
+import control.Main;
+
 import javax.swing.*;
+import java.awt.*;
 
 /**
- * User: Javier Isoldi
- * Date: 12/16/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 2:04 PM
  */
 public class MainFrame {
-    final static String FUNCTION_PANEL_NAME = "Functions";
-    final static String FUNCTION_PANEL_TIP = "Here you can work with function analysis";
-    final static String DIFFERENTIAL_EQUATION_PANEL_NAME = "Differential Equations";
-    final static String DIFFERENTIAL_EQUATION_PANEL_TIP = "Here you can find solution to differential equation";
-    final static String INTERPOLATION_PANEL_NAME = "Interpolation";
-    final static String INTERPOLATION_PANEL_TIP = "Here you can interpolate points into a function";
+    final static String FUNCTION_PANEL_NAME = "Funciones";
+    final static String FUNCTION_PANEL_TIP = "En esta sección se puede trabajar con análisis de funciones";
+    final static String DIFFERENTIAL_EQUATION_PANEL_NAME = "Ecuaciones Diferenciales";
+    final static String DIFFERENTIAL_EQUATION_PANEL_TIP = "En esta sección se pueden resolver ecuaciones diferenciales";
+    final static String INTERPOLATION_PANEL_NAME = "Interpolación y regresión";
+    final static String INTERPOLATION_PANEL_TIP = "En esta sección se pueden interpolar puntos en una función, o hacer" +
+            " una regresión lineal con ellos";
 
     private JFrame jFrame;
     private JTabbedPane tabbedPane;
@@ -21,48 +27,71 @@ public class MainFrame {
     private JPanel differentialEquationPanel;
     private JPanel interpolationPanel;
 
+    private Main main;
 
-    public MainFrame() {
-        jFrame = new JFrame("Calculator");
+    public MainFrame(Main main) {
+        this.main = main;
 
-        jFrame.setSize(500, 500);
-        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        jFrame.setLocationRelativeTo(null);
+        try {
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.fast.FastLookAndFeel");
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.acryl.AcrylLookAndFeel");
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.aero.AeroLookAndFeel");
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.luna.LunaLookAndFeel");
+            UIManager.setLookAndFeel("com.jtattoo.plaf.mint.MintLookAndFeel");
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel");  O ESTE
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+//            UIManager.setLookAndFeel("com.jtattoo.plaf.texture.TextureLookAndFeel");
+
+
+
+
+
+//            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+//            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+//            UIManager.setLookAndFeel(SeaGlassLookAndFeel.class.getCanonicalName());
+//            UIManager.setLookAndFeel ( WebLookAndFeel.class.getCanonicalName () );
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (InstantiationException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        } catch (UnsupportedLookAndFeelException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
+        jFrame = new JFrame("Calculadora");
+
+        jFrame.setSize(new Dimension(465, 444));
+        jFrame.setResizable(false);
 
         jFrame.getContentPane().add(initTabbedPane());
-        jFrame.setVisible(true);
 
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        jFrame.setLocationRelativeTo(null);
+        jFrame.setVisible(true);
     }
 
     private JTabbedPane initTabbedPane() {
         tabbedPane = new JTabbedPane();
 
         //function panel
-        functionPanel = new FunctionPanel();
-        JLabel functions = new JLabel(FUNCTION_PANEL_NAME);
+        functionPanel = new FunctionPanel(main);
         functionPanel.setBounds(100, 100, 80, 70);
-        functionPanel.add(functions);
         tabbedPane.addTab(FUNCTION_PANEL_NAME, null, functionPanel, FUNCTION_PANEL_TIP);
 
         //differential equation panel
-        differentialEquationPanel = new DifferentialEquationPanel();
-        JLabel label2 = new JLabel(DIFFERENTIAL_EQUATION_PANEL_NAME);
+        differentialEquationPanel = new DifferentialEquationPanel(main);
         differentialEquationPanel.setBounds(100, 100, 80, 70);
-        differentialEquationPanel.add(label2);
         tabbedPane.addTab(DIFFERENTIAL_EQUATION_PANEL_NAME, null, differentialEquationPanel
                 , DIFFERENTIAL_EQUATION_PANEL_TIP);
 
         //function panel
-        interpolationPanel = new InterpolationPanel();
-        JLabel label3 = new JLabel(INTERPOLATION_PANEL_NAME);
+        interpolationPanel = new InterpolationPanel(main);
         interpolationPanel.setBounds(100, 100, 80, 70);
-        interpolationPanel.add(label3);
         tabbedPane.addTab(INTERPOLATION_PANEL_NAME, null, interpolationPanel, INTERPOLATION_PANEL_TIP);
 
         return tabbedPane;
-    }
-
-    public static void main(String[] args) {
-        new MainFrame();
     }
 }

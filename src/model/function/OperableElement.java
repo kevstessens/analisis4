@@ -1,8 +1,8 @@
 package model.function;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 3:38 PM
  */
 public interface OperableElement {

@@ -5,8 +5,8 @@ import model.function.twovariablefunction.FunctionParser;
 import model.function.twovariablefunction.TwoVariableFunction;
 
 /**
- * User: Javier Isoldi
- * Date: 12/15/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 8:01 PM
  */
 public class DifferentialEquationCalculator {
@@ -45,7 +45,7 @@ public class DifferentialEquationCalculator {
 
                 TwoVariableFunction function = null;
                 try {
-                    function = parser.getFunctionFromMathExpression("y");
+                    function = parser.getFunctionFromMathExpression("y + 1");
                 } catch (NonValidExpressionError nonValidExpressionError) {
                     nonValidExpressionError.printStackTrace();
                 }

@@ -13,12 +13,12 @@
     <file path="/Variable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355638547368" ignored="false" />
     <file path="/Number.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355424314463" ignored="false" />
     <file path="/NoDefineMathOperationExeption.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355424897366" ignored="false" />
-    <file path="/FunctionParser.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355613972691" ignored="false" />
-    <file path="/fragment.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355678918890" ignored="false" />
+    <file path="/FunctionParser.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355974993096" ignored="false" />
+    <file path="/fragment.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386185307978" ignored="false" />
     <file path="/NonValidExpressionError.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355436785046" ignored="false" />
     <file path="/BasicUnitaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355451888966" ignored="false" />
     <file path="/UnitaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355640704272" ignored="false" />
-    <file path="/BinaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355641366013" ignored="false" />
+    <file path="/BinaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356012497455" ignored="false" />
     <file path="/OperableNumber.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355638529276" ignored="false" />
     <file path="/NewtonRawson.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355523723941" ignored="false" />
     <file path="/ZeroCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355603673944" ignored="false" />
@@ -28,8 +28,69 @@
     <file path="/TwoVariableFunctionImplementation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355617315213" ignored="false" />
     <file path="/DifferentialEquationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355616187725" ignored="false" />
     <file path="/GraphPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355676737025" ignored="false" />
-    <file path="/MainFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355678992852" ignored="false" />
-    <file path="/FunctionPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355930511512" ignored="false" />
+    <file path="/MainFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386188170615" ignored="false" />
+    <file path="/FunctionPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355976114310" ignored="false" />
+    <file path="/AddFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355973636563" ignored="false" />
+    <file path="/IntegrateFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114287366" ignored="false" />
+    <file path="/CalculateZeroOfAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114833938" ignored="false" />
+    <file path="/Main.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374119883424" ignored="false" />
+    <file path="/DifferentialEquationPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355981163492" ignored="false" />
+    <file path="/SolveDifferencialEquationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355980154231" ignored="false" />
+    <file path="/AddDifferentialEquationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355980299665" ignored="false" />
+    <file path="/SolveDifferentialEquationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374117903703" ignored="false" />
+    <file path="/Table.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1355980906562" ignored="false" />
+    <file path="/InterpolationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374124087215" ignored="false" />
+    <file path="/ApproximationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374126296667" ignored="false" />
+    <file path="/NonValidDataSetException.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356013124067" ignored="false" />
+    <file path="/TableModelForInsertion.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356021839351" ignored="false" />
+    <file path="/InterpolationPanel.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356023737130" ignored="false" />
+    <file path="/InartionTable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356018007846" ignored="false" />
+    <file path="/InsertionTable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118584675" ignored="false" />
+    <file path="/InterpolatePointsAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374126651872" ignored="false" />
+    <file path="/LinearAproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356019071456" ignored="false" />
+    <file path="/calcYForLinerApproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356019267395" ignored="false" />
+    <file path="/calcYForInterpolationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356019380947" ignored="false" />
+    <file path="/TableModelForDataView.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1356019825599" ignored="false" />
+    <file path="/LinearApproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374126719817" ignored="false" />
+    <file path="/CalcYForLinerApproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374120637690" ignored="false" />
+    <file path="/CalcYForInterpolationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374120628839" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/view/MainFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374120743199" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/view/InsertionTable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118586949" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/Main.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374119892611" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/IntegrateFunctionAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374117699112" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/.idea/workspace.xml" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374110687945" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/CalculateZeroOfAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374117798912" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/mathoperators/BasicBinaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113861971" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/mathoperators/BasicUnitaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113866519" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/mathoperators/BinaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113873553" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/mathoperators/UnitaryMathOperation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113878077" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/onevariablefunction/Function.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113884360" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/onevariablefunction/FunctionImplementation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113908273" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/onevariablefunction/FunctionParser.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113917975" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/twovariablefunction/FunctionParser.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113933750" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/twovariablefunction/TwoVariableFunction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113939226" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/twovariablefunction/TwoVariableFunctionImplementation.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113952923" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/NoDefineMathOperationException.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113966025" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/NonValidExpressionError.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113971262" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/OperableElement.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113976511" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/OperableNumber.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113980329" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/function/Variable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374113986546" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/ApproximationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114012497" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/DifferentialEquationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114016459" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/IntegralCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114023313" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/InterpolationCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374125404228" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/NonValidDataSetException.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114037275" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/model/numericalanalisys/ZeroCalculator.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114043095" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/view/TableModelForInsertion.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374114055399" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/SolveDifferentialEquationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118017769" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/EmptyPointsTable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118727900" ignored="false" />
+    <file path="/EmptyPointsTable.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118695429" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/InterpolatePointsAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374126668974" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/CalcYForInterpolationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374120630032" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/CalcYForLinerApproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374120639112" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/control/actions/LinearApproximationAction.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374126719817" ignored="false" />
+    <file path="$PROJECT_DIR$/../calculadora/src/view/popup/ErrorFrame.java" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1374118904124" ignored="false" />
+    <file path="/a.dummy" changelist="f061b6b6-2e1a-4deb-8b9a-bac6928884c9" time="1386185690360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +106,24 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/view/InterpolationPanel.java" line="46" class="view.InterpolationPanel" package="view">
+        <option name="WATCH_ENTRY" value="true" />
+        <option name="WATCH_EXIT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </method_breakpoints>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java" line="280" class="model.function.twovariablefunction.FunctionParser" package="model.function.twovariablefunction">
         <option name="ENABLED" value="true" />
@@ -61,48 +140,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java" line="266" class="model.function.twovariablefunction.FunctionParser" package="model.function.twovariablefunction">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java" line="63" class="model.function.twovariablefunction.FunctionParser" package="model.function.twovariablefunction">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java" line="43" class="model.function.twovariablefunction.FunctionParser" package="model.function.twovariablefunction">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/model/function/mathoperators/BinaryMathOperation.java" line="111" class="model.function.mathoperators.BinaryMathOperation" package="model.function.mathoperators">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -151,7 +188,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -162,11 +198,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TwoVariableFunctionImplementation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/twovariablefunction/TwoVariableFunctionImplementation.java">
+      <file leaf-file-name="SolveDifferentialEquationAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/actions/SolveDifferentialEquationAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="38" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+            <state line="23" column="7" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegrateFunctionAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/actions/IntegrateFunctionAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="98" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddFunctionAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/actions/AddFunctionAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="55" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,16 +230,52 @@
       <file leaf-file-name="Variable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/function/Variable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunctionParser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NonValidExpressionError.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/function/NonValidExpressionError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoDefineMathOperationException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/function/NoDefineMathOperationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperableElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+            <state line="18" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.258161">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,63 +284,7 @@
       <file leaf-file-name="FunctionImplementation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/GraphPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="333" selection-end="1438" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="24" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterpolationPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/InterpolationPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DifferentialEquationPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/DifferentialEquationPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctionPanel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/FunctionPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="332" selection-end="332" vertical-scroll-proportion="0.28989038">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryMathOperation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/function/mathoperators/BinaryMathOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="0" selection-start="5448" selection-end="5448" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,30 +300,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java" />
-        <option value="$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java" />
-        <option value="$PROJECT_DIR$/src/model/function/OperableNumber.java" />
-        <option value="$PROJECT_DIR$/src/model/function/OperableElement.java" />
-        <option value="$PROJECT_DIR$/src/model/function/Variable.java" />
-        <option value="$PROJECT_DIR$/src/model/function/mathoperators/UnitaryMathOperation.java" />
-        <option value="$PROJECT_DIR$/src/model/function/twovariablefunction/TwoVariableFunctionImplementation.java" />
-        <option value="$PROJECT_DIR$/src/model/function/mathoperators/BinaryMathOperation.java" />
-        <option value="$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionImplementation.java" />
-        <option value="$PROJECT_DIR$/src/view/GraphPanel.java" />
-        <option value="$PROJECT_DIR$/src/view/DigitTextField.java" />
-        <option value="$PROJECT_DIR$/src/view/Visualizer.java" />
         <option value="$PROJECT_DIR$/src/view/DifferentialEquationPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/GraphPanel.java" />
+        <option value="$PROJECT_DIR$/src/view/InsertionTable.java" />
         <option value="$PROJECT_DIR$/src/view/InterpolationPanel.java" />
-        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/view/TableModelForInsertion.java" />
         <option value="$PROJECT_DIR$/src/view/FunctionPanel.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/CalcYForInterpolationAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/CalcYForLinerApproximationAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/InterpolatePointsAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/LinearApproximationAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/SolveDifferentialEquationAction.java" />
+        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/AddFunctionAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/AddDifferentialEquationAction.java" />
+        <option value="$PROJECT_DIR$/src/control/actions/IntegrateFunctionAction.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="y" value="22" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -296,6 +331,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -315,35 +352,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -378,65 +386,174 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="numericalanalisys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onevariablefunction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mathoperators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JTattoo-1.6.10.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Javier\IdeaProjects\calculator\src\view" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="view" />
+      <recent name="control.actions" />
+      <recent name="control" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
-    <configuration default="false" name="FunctionImplementation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="model.function.onevariablefunction.FunctionImplementation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="TwoVariableFunctionImplementation" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="model.function.twovariablefunction.TwoVariableFunctionImplementation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
+      <module name="calculator" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -449,7 +566,54 @@
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="control.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="calculator" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InterpolationCalculator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="model.numericalanalisys.InterpolationCalculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="calculator" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ApproximationCalculator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="model.numericalanalisys.ApproximationCalculator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -465,23 +629,13 @@
       <method />
     </configuration>
     <configuration default="false" name="GraphPanel" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="MAIN_CLASS_NAME" value="view.GraphPanel" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="calculator" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainFrame" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="view.MainFrame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -518,6 +672,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -532,6 +687,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -552,18 +708,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FunctionImplementation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TwoVariableFunctionImplementation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GraphPanel" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainFrame" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TwoVariableFunctionImplementation" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InterpolationCalculator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ApproximationCalculator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GraphPanel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GraphPanel" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FunctionImplementation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ApproximationCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GraphPanel" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InterpolationCalculator" />
         <item index="4" class="java.lang.String" itemvalue="Application.TwoVariableFunctionImplementation" />
       </list>
     </recent_temporary>
@@ -607,28 +763,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <frame x="0" y="22" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5808314" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44803694" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26398027" sideWeight="0.39716312" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23743922" sideWeight="0.65588915" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34411085" sideWeight="0.9991803" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21996997" sideWeight="0.661859" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33814102" sideWeight="0.9991803" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995381" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -692,118 +853,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/function/twovariablefunction/FunctionParser.java">
+    <entry file="file://$PROJECT_DIR$/src/control/actions/CalculateZeroOfAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="40" selection-start="8311" selection-end="8311" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getOperationPriority#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushOperator#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushOperatorAsOperableElement#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushTan#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushCos#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushSin#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushLogarithm#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushClosingBracket#0;class#FunctionParser#0" expanded="false" />
-            <element signature="method#pushOpenBracket#0;class#FunctionParser#0" expanded="false" />
-          </folding>
+        <state line="55" column="46" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/mathoperators/UnitaryMathOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/control/actions/AddDifferentialEquationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="24" selection-start="3691" selection-end="3691" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="219" selection-end="249" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/twovariablefunction/TwoVariableFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/OperableNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+        <state line="36" column="35" selection-start="1185" selection-end="1253" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/CalcYForLinerApproximationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="105" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/CalcYForInterpolationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="72" selection-start="1440" selection-end="1533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/InterpolatePointsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="64" selection-start="2532" selection-end="2620" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/LinearApproximationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/SolveDifferentialEquationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="7" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/IntegrateFunctionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="98" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/actions/AddFunctionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="55" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/function/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/twovariablefunction/TwoVariableFunctionImplementation.java">
+    <entry file="file://$PROJECT_DIR$/src/model/function/NonValidExpressionError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/function/mathoperators/BinaryMathOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/model/function/NoDefineMathOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="5448" selection-end="5448" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/function/OperableElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/DifferentialEquationPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/model/function/onevariablefunction/FunctionParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="18" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.258161">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/GraphPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="333" selection-end="1438" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/InterpolationPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="24" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/FunctionPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="332" selection-end="332" vertical-scroll-proportion="0.28989038">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,7 +1007,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -864,6 +1024,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -883,6 +1044,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>JTattoo-1.6.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

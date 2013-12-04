@@ -12,8 +12,8 @@ import model.function.mathoperators.UnitaryMathOperation;
 import java.util.Stack;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 4:54 PM
  */
 public class FunctionParser {
@@ -24,6 +24,9 @@ public class FunctionParser {
 
     public Function getFunctionFromMathExpression(String mathExpression) throws NonValidExpressionError {
         variable = new Variable("x");
+        if (mathExpression.length() == 0){
+            throw new NonValidExpressionError(0);
+        }
         return new FunctionImplementation(variable, getOperableElementFormMathExpression(mathExpression));
     }
 
@@ -232,6 +235,8 @@ public class FunctionParser {
     }
 
     private int pushLogarithm(String mathExpression, int i) throws NonValidExpressionError {
+        try {
+
         Character actualChar = mathExpression.charAt(++i);
         if (actualChar == 'o') {
             actualChar = mathExpression.charAt(++i);
@@ -256,6 +261,9 @@ public class FunctionParser {
             throw new NonValidExpressionError(i);
         }
         return i;
+        } catch (StringIndexOutOfBoundsException e){
+            throw new NonValidExpressionError(--i);
+        }
     }
 
     private void pushClosingBracket() throws NonValidExpressionError {

@@ -1,8 +1,8 @@
 package model.function.onevariablefunction;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 2:49 PM
  */
 public interface Function {

@@ -5,8 +5,8 @@ import model.function.onevariablefunction.FunctionParser;
 import model.function.NonValidExpressionError;
 
 /**
- * User: Javier Isoldi
- * Date: 12/14/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 7:11 PM
  */
 public class ZeroCalculator {

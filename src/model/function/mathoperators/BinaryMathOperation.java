@@ -4,8 +4,8 @@ import model.function.OperableElement;
 import model.function.OperableNumber;
 
 /**
- * User: Javier Isoldi
- * Date: 12/13/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 3:40 PM
  */
 public class BinaryMathOperation implements OperableElement {
@@ -109,25 +109,23 @@ public class BinaryMathOperation implements OperableElement {
     }
 
     public OperableElement simplify() {
+        firstOperand = firstOperand.simplify();
+        secondOperand = secondOperand.simplify();
         if (firstOperand.isConstant() && secondOperand.isConstant()) {
             return new OperableNumber(getValue());
         }
         switch (mathOperation) {
             case ADDITION:
                 if (firstOperand.isConstant() && firstOperand.getValue().doubleValue() == 0) {
-                    return secondOperand.simplify();
+                    return secondOperand;
                 } else if (secondOperand.isConstant() && secondOperand.getValue().doubleValue() == 0) {
-                    return firstOperand.simplify();
+                    return firstOperand;
                 }
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
             case SUBTRACTION:
                 if (secondOperand.isConstant() && secondOperand.getValue().doubleValue() == 0) {
-                    return firstOperand.simplify();
+                    return firstOperand;
                 }
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
 
             case MULTIPLICATION:
@@ -144,8 +142,6 @@ public class BinaryMathOperation implements OperableElement {
                         return firstOperand;
                     }
                 }
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
             case DIVISION:
                 if (firstOperand.isConstant() && firstOperand.getValue().doubleValue() == 0) {
@@ -153,8 +149,6 @@ public class BinaryMathOperation implements OperableElement {
                 } else if (secondOperand.isConstant() && secondOperand.getValue().doubleValue() == 1) {
                     return firstOperand;
                 }
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
             case EXPONENTIATION:
                 if (firstOperand.isConstant()) {
@@ -170,12 +164,8 @@ public class BinaryMathOperation implements OperableElement {
                         return firstOperand;
                     }
                 }
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
             default:
-                firstOperand = firstOperand.simplify();
-                secondOperand = secondOperand.simplify();
                 return this;
         }
     }

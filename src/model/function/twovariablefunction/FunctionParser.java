@@ -12,7 +12,7 @@ import model.function.mathoperators.UnitaryMathOperation;
 import java.util.Stack;
 
 /**
- * User: Javier Isoldi
+ * User: Kev Stessens
  * Date: 12/15/12
  * Time: 8:17 PM
  */
@@ -222,7 +222,7 @@ public class FunctionParser {
             }
             actualChar = mathExpression.charAt(++i);
         }
-        if (i < mathExpression.length() ) {
+        if (i < mathExpression.length() - 1) {
             i--;
         }
 

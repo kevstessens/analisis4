@@ -5,8 +5,8 @@ import model.function.OperableElement;
 import model.function.Variable;
 
 /**
- * User: Javier Isoldi
- * Date: 12/15/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 8:15 PM
  */
 public class TwoVariableFunctionImplementation implements TwoVariableFunction {
@@ -18,7 +18,6 @@ public class TwoVariableFunctionImplementation implements TwoVariableFunction {
         this.x = x;
         this.y = y;
         this.operationRoot = operationRoot;
-
         this.operationRoot.simplify();
     }
 
@@ -40,7 +39,7 @@ public class TwoVariableFunctionImplementation implements TwoVariableFunction {
         TwoVariableFunction function = null;
 
         try {
-            function = functionParser.getFunctionFromMathExpression("sin( (x^2) * 5) + log(y^2 + 2)");
+            function = functionParser.getFunctionFromMathExpression("y + 1");
         } catch (NonValidExpressionError nonValidExpressionError) {
             nonValidExpressionError.printStackTrace();
         }

@@ -6,8 +6,8 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 
 /**
- * User: Javier Isoldi
- * Date: 12/16/12
+ * User: Kev Stessens
+ * Date: 12/03/13
  * Time: 1:20 PM
  */
 public class GraphPanel extends JPanel {
