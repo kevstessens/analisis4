@@ -49,7 +49,7 @@ public class CalculateZeroOfAction extends AbstractAction {
             new ErrorFrame(new JFrame(), "Error", "Debe seleccionar una función");
             return;
         }
-        Double result = ZeroCalculator.newtonRawsonMethod(selectedFunction, x0);
+        Double result = ZeroCalculator.newtonRaphsonMethod(selectedFunction, x0);
         if (result.isNaN()) {
             new ErrorFrame(new JFrame(), "Error", "Error matemático");
             return;

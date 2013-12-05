@@ -11,12 +11,12 @@ import model.function.NonValidExpressionError;
  */
 public class ZeroCalculator {
 
-    public static double newtonRawsonMethod(Function function, double x0) {
+    public static double newtonRaphsonMethod(Function function, double x0) {
         Function functionDerivative = function.getDerivative();
-        return newtonRawsonMethod(function, x0, 0, functionDerivative);
+        return newtonRaphsonMethod(function, x0, 0, functionDerivative);
     }
 
-    private static double newtonRawsonMethod(Function function, double x, int iteration, Function functionDerivative) {
+    private static double newtonRaphsonMethod(Function function, double x, int iteration, Function functionDerivative) {
         double y = function.functionInX(x).doubleValue();
         if (y <= 0.0000000000000000000001) {
             return x;
@@ -24,7 +24,7 @@ public class ZeroCalculator {
         x = x - (y / functionDerivative.functionInX(x).doubleValue());
         if (iteration <= 30) {
             iteration++;
-            return newtonRawsonMethod(function, x, iteration, functionDerivative);
+            return newtonRaphsonMethod(function, x, iteration, functionDerivative);
         }
         if (y > 10) {
             return Double.NaN;
@@ -65,6 +65,6 @@ public class ZeroCalculator {
             nonValidExpressionError.printStackTrace();
         }
 
-        System.out.println(ZeroCalculator.newtonRawsonMethod(function, 1000));
+        System.out.println(ZeroCalculator.newtonRaphsonMethod(function, 1000));
     }
 }
